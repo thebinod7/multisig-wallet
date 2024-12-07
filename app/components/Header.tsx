@@ -1,3 +1,4 @@
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Link from "next/link";
 import React from "react";
 
@@ -21,10 +22,7 @@ export default function Header() {
           </li>
         </ul>
 
-        <div id="user-menu">
-          <h4 className="nav-items">User</h4>
-          {/* <button className="btn-toggle">Open</button> */}
-        </div>
+        <ConnectButton showBalance={false} />
       </div>
     </nav>
   );
