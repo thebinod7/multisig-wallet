@@ -9,8 +9,6 @@ import { baseSepolia, mainnet } from "viem/chains";
 // Create PROJECT_ID from https://cloud.reown.com/
 const PROJECT_ID = process.env.NEXT_PUBLIC_WALLET_PROJECT_ID as string;
 
-export const CONTRACT_ADDRESS = "0xE1a4e2FC2A7C9A474e323d03bD0172DbB58e4b2f";
-
 export const SUPPORTED_CHAINS = [mainnet, baseSepolia];
 
 export const config = getDefaultConfig({
