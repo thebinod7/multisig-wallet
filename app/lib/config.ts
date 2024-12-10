@@ -4,7 +4,7 @@ import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { cookieStorage, createConfig, createStorage, http } from "wagmi";
 // import { baseSepolia,  mainnet } from "wagmi/chains";
 import { injected, metaMask, safe, walletConnect } from "wagmi/connectors";
-import { baseSepolia, mainnet } from "viem/chains";
+import { baseSepolia, mainnet } from "wagmi/chains";
 
 // Create PROJECT_ID from https://cloud.reown.com/
 const PROJECT_ID = process.env.NEXT_PUBLIC_WALLET_PROJECT_ID as string;
